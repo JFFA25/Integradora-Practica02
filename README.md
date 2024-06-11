@@ -112,4 +112,21 @@ Tambien podemos ingresar a textos multilinea
 > - Instalar el Sistema Gestor de Bases de Datos , definiendo el puerto y contraseña para el usuario***root***
 > - Descargar el archivo de respaldo de la base de datos (.sql)
 > - Restauramos la Base de Datos usando el comando "mysql"
->>C:Program Files/MySQL/MySQL Server 8.0/bin/mysql -u root - p password < respaldo.sql
+>> C:Program Files/MySQL/MySQL Server 8.0/bin/mysql -u root - p password < respaldo.sql
+
+### 6. Listas Ordenadas y Listas Desordenadas
+
+Si en nuestra documentacion necesitamos incluir informacion en modo de lista , un elemento tras otro
+podemos hacerlo utilizando utilizando los números con un punto decimal si las  deseamos ordenadas o guion medio - si solo queremos una viñeta
+
+**EJEMPLO**
+Para crea tu primer repositorio en GitHub deberas:
+1. Contar con cuenta GitHub.
+1. Dar click en el boton : **Nuevo Repositorio*
+2. Asignar un Nombre a tu repositorio , por ejemplo : "practica3-3b"
+8. Asignar un nivel de privacidad entre
+- **Publico** Si quieres que este disponible para todos los usuarios.
+- **Privadp** Si deseas que solo a quien tu decidas puedan colaborar con tu proyecto
+5. Definir si incluye un archivo de descripcion llamado "README.md"
+50. Definir si habra exclusiones de archivo a traves dek archhivo : *.gitignore*
+3. Guardar los cambios
