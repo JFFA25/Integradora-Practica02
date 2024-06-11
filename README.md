@@ -126,7 +126,29 @@ Para crea tu primer repositorio en GitHub deberas:
 2. Asignar un Nombre a tu repositorio , por ejemplo : "practica3-3b"
 8. Asignar un nivel de privacidad entre
 - **Publico** Si quieres que este disponible para todos los usuarios.
-- **Privadp** Si deseas que solo a quien tu decidas puedan colaborar con tu proyecto
+- **Privado** Si deseas que solo a quien tu decidas puedan colaborar con tu proyecto
 5. Definir si incluye un archivo de descripcion llamado "README.md"
 50. Definir si habra exclusiones de archivo a traves dek archhivo : *.gitignore*
 3. Guardar los cambios
+
+
+Si queremos usar orden en  que comience en un número especifico debemos utilizar código HTML
+usando los tags ol y li
+
+**Ejemplo**
+<ol type="1">
+  <li>Primero</li>
+  <li>Segundo</li>
+  <li>Tercero</li>
+  <li>Cuarto</li>
+ <li>Quinto</li>
+</ol>
+
+#### 7. Ligas (Hypervinculos)
+
+Las ligas son utilizadas para vincular elementos oreferencias del proyecto dentro del mismo
+repositorio o fuera de el . Y se maqueta utilizando los corchetes \[ \] , inmediatamente despues 
+pondremos la liga de referencia entre parentesis  \( \)
+
+**EJEMPLO**
+Mi buscador favorito es  [Google](https//:wwww.google.com)
