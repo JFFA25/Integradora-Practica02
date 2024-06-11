@@ -104,3 +104,12 @@ Tambien podemos ingresar a textos multilinea
 
 **EJEMPLO**
 
+>Aqui se ingresa un conjunto de instrucciones para explicar al usuario , como instalar el software que hemos diseñado
+
+**EJEMPLO:Pasos para Instalar la Base de Datos**
+
+> - Descargar MySQL Server Del Sitio Oficial
+> - Instalar el Sistema Gestor de Bases de Datos , definiendo el puerto y contraseña para el usuario***root***
+> - Descargar el archivo de respaldo de la base de datos (.sql)
+> - Restauramos la Base de Datos usando el comando "mysql"
+>>C:Program Files/MySQL/MySQL Server 8.0/bin/mysql -u root - p password < respaldo.sql
