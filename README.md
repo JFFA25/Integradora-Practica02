@@ -88,3 +88,19 @@ Algunas veces necesitaremos subraya texto dentro de la documentación, para ello
 **EJEMPLO:**
 
 Texto Texto Texto Texto Texto  Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto *Texto Cursivo* Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto <ins>Texto Subrayado</ins> Texto.
+
+### 5 Cuadros para Código o Reseñas ( BLOCKQUOTES )
+Estos elementos son utilizados para resaltar instrucciones especificas para la instalacion, configuracion y/o inicialización o mostrar secciones de código de fuente. Se maqueta iniciando el texto 
+con un simbolo de mayor que (\>)
+
+**EJEMPLO:**
+Para listar las carpetas y archivos desde una terminal de sistema operativo Windows debemos ingresar el comando :
+
+>C:dir
+
+Despues oprimimos la tecla "Enter".
+
+Tambien podemos ingresar a textos multilinea
+
+**EJEMPLO**
+
