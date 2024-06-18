@@ -144,24 +144,20 @@ usando los tags ol y li
  <li>Quinto</li>
 </ol>
 
-#### 7. Ligas (Hypervinculos)
+#### 7. Ligas (Hipervínculos)
+Las ligas son utilizadas para vincular elementos o referencias del proyecto dentro del mismo repositorio o fuera de el. Y se maquetan utilizanlo los corchetes \[ \], inmediatamente despues pondrémos la liga de referencia entre parentesis \( \)
 
-Las ligas son utilizadas para vincular elementos oreferencias del proyecto dentro del mismo
-repositorio o fuera de el . Y se maqueta utilizando los corchetes \[ \] , inmediatamente despues 
-pondremos la liga de referencia entre parentesis  \( \)
+**EJEMPLO:**
+Mi buscador favorito es: [Google](https://www.google.com). 
 
-**EJEMPLO**
-Mi buscador favorito es  [Google](https//:wwww.google.com)
+Pero si deseamos poner solo las ligas directas o un correo electrónico podemos utilizas los simbolos \< \>
 
-Pero si deseamos poner solo las ligas directas o un correo electronico podemos utilizar los simbolos  \
-<\>
+**EJEMPLO:**
 
-**EJEMPLO**
-
-Documentacion creada por : ***Jose Francisco Flores Amador***
+Documentación creada por:  ***José Francisco Flores Amador***  
 <230417@utxicotepec.edu.mx>
 
-<http//www.utxicotepec.edu.mx>
+<http://www.utxicotepec.edu.mx>
 
 #### 8.Tablas (Tabs)
 
@@ -176,8 +172,8 @@ para maquetarlas podemos utilizar el caracter | para delifitar las columas y - p
 |Fila 1 Celda 2|Fila 2 Celda 2|Fila 2 Celda 3|Fila 2 Celda 4|
 | Fila 1 Celda3|Fila 3 Celda 2|Fila 3 Celda 3|Fila 3 Celda 4|
 
-En caso de necesitar la fusion de celdas en columnas usaremos la propiedad "colspan" del taj   \<td> y en el caso de necesitar
-la fusion de filas utilizaremos la propiedad "rospawn".
+En caso de necesitar la fusión de celdas en columnas usaremos la propiedad *colspan* del tag \<td> y en el caso de necesitar la fusión de filas utilizaremos la propiedad *rowspan* .
+
 
 **EJEMPLO**
 | Encabezado 1 | Encabezado2 | Encabezado 3 | Encabezado4|
@@ -188,3 +184,55 @@ la fusion de filas utilizaremos la propiedad "rospawn".
 |              |Fila 4 Celda 2|Fila 4 Celda 3|Fila 4 Celda 4|
 |              |Fila 5 Celda 2|Fila 5 Celda 3|Fila 5 Celda 4|
 | Fila 6 Celda5|Fila 6 Celda 2|Fila 6 Celda 3|Fila 6 Celda 4|
+
+Dado que en el ejemplo pasado usando solo markdown no se puede realizar la fusión de filas debemos utilizar el estandar de HTML, usando los tags: \<th> para los encabezados, \<tr> para las filas y <td> para las celdas, y en  ellos utilizar la propiedad de  *colspan* y *rowspan*
+
+**EJEMPLO:**
+
+<table>
+ <tr>
+  <th>Encabezado 1</th>
+ <th>Encabezado 2</th>
+ <th>Encabezado 3</th>
+ <th>Encabezado 4</th>
+</tr>
+ <tr>
+   <td>Fila 1 Celda 1</td>
+  <td>Fila 1 Celda 2</td>
+  <td>Fila 1 Celda 3</td>
+  <td>Fila 1 Celda 4</td>
+ </tr>
+ 
+ <tr>
+   <td>Fila 2 Celda 1</td>
+  <td colspan=3 align="center">Fila 2 Celda 2</td>
+ </tr>
+
+ <tr>
+  <td rowspan=3> Fila 3 Celda 1</td>
+  <td> Fila 3 Celda 2</td>
+  <td> Fila 3 Celda 3</td>
+  <td> Fila 3 Celda 4</td>
+ </tr>
+
+<tr>
+  <td>Fila 4 Celda 2</td>
+ <td>Fila 4 Celda 3</td>
+ <td>Fila 4 Celda 4</td>
+</tr>
+ 
+<tr>
+  <td>Fila 5 Celda 2</td>
+ <td>Fila 5 Celda 3</td>
+ <td>Fila 5 Celda 4</td>
+</tr>
+
+<tr>
+ <td>Fila 6 Celda 1</td> 
+ <td>Fila 6 Celda 2</td>
+ <td>Fila 6 Celda 3</td>
+ <td>Fila 6 Celda 4</td>
+</tr>
+
+</table>
+
